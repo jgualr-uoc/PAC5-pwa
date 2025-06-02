@@ -14,7 +14,7 @@ export class Api {
     return this.http.get<Product[]>('https://fakestoreapi.com/products');
   }
 
-  getProductById(id: number): Observable<Product> {
+  getProductById(id: string): Observable<Product> {    
     return this.http.get<Product>('https://fakestoreapi.com/products/' + id);
   }
 }
