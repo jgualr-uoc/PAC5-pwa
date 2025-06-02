@@ -1,1 +1,10 @@
-<p>list works!</p>
+<mat-list>
+    <a *ngFor="let product of products" :href="detail/{{product.id}}">
+        <mat-list-item class="product">
+            <img matListItemAvatar :src="{{product.image}}" alt="{{ product.title }}">
+            <h3 matListItemTitle>{{ product.title }}</h3>
+            <p matListItemLine class="fw-bold">{{ product.price | currency:'EUR':'symbol':'1.2-2' }}</p>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+    </a>
+</mat-list>

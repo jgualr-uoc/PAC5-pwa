@@ -3,12 +3,11 @@ import { Api } from '../../Services/api';
 import { Product } from '../../Models/product.interface';
 import { CommonModule } from '@angular/common';
 import { Card } from '../ui/card/card';
-
-
+import { List } from '../ui/list/list';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, Card],
+  imports: [CommonModule, Card, List],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })

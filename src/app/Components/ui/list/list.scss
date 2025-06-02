@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+}
+
+mat-list-item {
+    cursor: pointer !important;
+    &:hover {
+        background-color: var(--mat-list-item-hover-bg, #f5f5f5);
+    }
+}
