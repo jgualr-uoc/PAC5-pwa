@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748906827292,
+  "timestamp": 1748906974554,
   "index": "/PAC5-pwa/index.html",
   "assetGroups": [
     {
@@ -50,6 +50,32 @@
       "maxSize": 100,
       "maxAge": 86400000,
       "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "google-fonts-stylesheets",
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 10,
+      "maxAge": 604800000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    },
+    {
+      "name": "google-fonts-webfonts",
+      "patterns": [
+        "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
+      ],
+      "strategy": "performance",
+      "maxSize": 30,
+      "maxAge": 2592000000,
       "cacheQueryOptions": {
         "ignoreVary": true
       },
