@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748906974554,
+  "timestamp": 1748907111738,
   "index": "/PAC5-pwa/index.html",
   "assetGroups": [
     {
@@ -60,7 +60,7 @@
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/.*"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 10,
       "maxAge": 604800000,
       "cacheQueryOptions": {
@@ -73,7 +73,7 @@
       "patterns": [
         "https:\\/\\/fonts\\.gstatic\\.com\\/.*"
       ],
-      "strategy": "performance",
+      "strategy": "freshness",
       "maxSize": 30,
       "maxAge": 2592000000,
       "cacheQueryOptions": {
