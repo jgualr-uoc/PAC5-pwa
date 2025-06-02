@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 .container {
     padding: 10px 15px;
@@ -11,4 +18,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 h1 {
     text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.m-y-big {
+    margin: 20px 0;
+}
+
+.fw-bold {
+    font-weight: 700;
 }

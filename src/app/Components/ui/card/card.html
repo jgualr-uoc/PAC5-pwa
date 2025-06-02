@@ -5,8 +5,8 @@
             <p>
         {{ product.title }}
     </p>
-    <p>
-        {{ product.price }}
+    <p class="fw-bold">
+        {{product.price | currency:'EUR':'symbol':'1.2-2'}}
     </p>
   </mat-card-content>
 </mat-card>

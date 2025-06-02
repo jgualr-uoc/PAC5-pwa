@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-card',
-  imports: [MatCardModule, MatButtonModule],
+  imports: [MatCardModule, MatButtonModule, CommonModule],
   templateUrl: './card.html',
   styleUrl: './card.scss'
 })
