@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+}
+
+.product {
+    color: white;
+    margin: 10px;
+    max-width: 250px;
+
+    img {
+        height: 250px;
+        object-fit: cover;
+    }
+}

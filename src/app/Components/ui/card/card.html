@@ -1,1 +1,13 @@
-<p>card works!</p>
+<a :href="{{product.id}}">
+    <mat-card class="product" >
+        <img mat-card-image :src="{{product.image}}" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+        {{ product.title }}
+    </p>
+    <p>
+        {{ product.price }}
+    </p>
+  </mat-card-content>
+</mat-card>
+</a>
