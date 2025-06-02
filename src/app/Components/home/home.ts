@@ -4,15 +4,18 @@ import { Product } from '../../Models/product.interface';
 import { CommonModule } from '@angular/common';
 import { Card } from '../ui/card/card';
 import { List } from '../ui/list/list';
+import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-home',
-  imports: [CommonModule, Card, List],
+  imports: [CommonModule, Card, List, MatButtonToggleModule, MatIconModule],
   templateUrl: './home.html',
   styleUrl: './home.scss'
 })
 export class Home {
   products: Product[] = [];
+  view = 'list'; // Default view
   constructor(private api: Api) {
   }
 

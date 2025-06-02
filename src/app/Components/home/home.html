@@ -1,14 +1,25 @@
 <div>
+    <div class="container d-flex justify-content-end">
+        <mat-button-toggle-group hideSingleSelectionIndicator="true">
+            <mat-button-toggle value="list" [ariaSelected]="true" (change)="view = 'list'" checked="">
+                <mat-icon>view_list</mat-icon>
+            </mat-button-toggle>
+            <mat-button-toggle value="grid" (change)="view = 'grid'">
+                <mat-icon>grid_view</mat-icon>
+            </mat-button-toggle>
+        </mat-button-toggle-group>
+
+    </div>
     <div class="container">
         <h1>Productes</h1>
 
-        <div class="products-grid">
+        <div *ngIf="view === 'grid'" class="products-grid">
             <div *ngFor="let product of products">
                 <app-card [product]="product"></app-card>
             </div>
         </div>
 
-        <div class="products-list">
+        <div *ngIf="view === 'list'" class="products-list">
                 <app-list [products]="products"></app-list>
         </div>
 
