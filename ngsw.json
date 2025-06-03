@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748909480494,
+  "timestamp": 1748910411924,
   "index": "/PAC5-pwa/index.html",
   "assetGroups": [
     {
@@ -94,7 +94,7 @@
     "/PAC5-pwa/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/PAC5-pwa/index.html": "1abb16fc24429bb5ae2f8389e67d0f80d00107a5",
     "/PAC5-pwa/main-HWWEYJC7.js": "d3efc0da956a7d3a3eeb409e2390ee4611e41be3",
-    "/PAC5-pwa/manifest.webmanifest": "5f5141df20cd432eb8bc1771e6b8fce8b4a1c6b2",
+    "/PAC5-pwa/manifest.webmanifest": "9191b279878544d31ce1c2b58a690ace3382e4eb",
     "/PAC5-pwa/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
     "/PAC5-pwa/styles-XBHXIL5F.css": "edd8c69a511a795481d154f02f32e13bd3e52418"
   },
