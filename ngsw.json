@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1748910411924,
+  "timestamp": 1748910752154,
   "index": "/PAC5-pwa/index.html",
   "assetGroups": [
     {
@@ -35,7 +35,9 @@
         "/PAC5-pwa/icons/icon-384x384.png",
         "/PAC5-pwa/icons/icon-512x512.png",
         "/PAC5-pwa/icons/icon-72x72.png",
-        "/PAC5-pwa/icons/icon-96x96.png"
+        "/PAC5-pwa/icons/icon-96x96.png",
+        "/PAC5-pwa/screenshots/screenshot1.png",
+        "/PAC5-pwa/screenshots/screenshot2.png"
       ],
       "patterns": []
     }
@@ -94,8 +96,10 @@
     "/PAC5-pwa/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/PAC5-pwa/index.html": "1abb16fc24429bb5ae2f8389e67d0f80d00107a5",
     "/PAC5-pwa/main-HWWEYJC7.js": "d3efc0da956a7d3a3eeb409e2390ee4611e41be3",
-    "/PAC5-pwa/manifest.webmanifest": "9191b279878544d31ce1c2b58a690ace3382e4eb",
+    "/PAC5-pwa/manifest.webmanifest": "f6e110848a21ddddd48a1a5c0eb98e68fe4b40a3",
     "/PAC5-pwa/polyfills-B6TNHZQ6.js": "bf76ac291d7f51c1139b7edcf86b359a30c08c64",
+    "/PAC5-pwa/screenshots/screenshot1.png": "3ec6daddcf19ff53354ec79301aab24751b15e09",
+    "/PAC5-pwa/screenshots/screenshot2.png": "84d0a7969ae35281fe63459f6e0faa55bff92652",
     "/PAC5-pwa/styles-XBHXIL5F.css": "edd8c69a511a795481d154f02f32e13bd3e52418"
   },
   "navigationUrls": [

@@ -2,6 +2,19 @@
   "name": "PAC-5",
   "short_name": "PAC-5",
   "display": "standalone",
+  "id": "/",
+  "screenshots": [
+    {
+      "src": "screenshots/screenshot1.png",
+      "sizes": "375x665",
+      "type": "image/png"
+    },
+    {
+      "src": "screenshots/screenshot2.png",
+      "sizes": "375x665",
+      "type": "image/png"
+    }
+  ],
   "background_color": "#f2f2f2",
   "description": "A Progressive Web App (PWA) built with Angular, featuring a responsive design and Material UI components. By Josep Gual Rossello",
   "theme_color": "#3f51b5",
