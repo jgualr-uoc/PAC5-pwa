@@ -26,5 +26,41 @@
         ]
       }
     }
+  ],
+  "dataGroups": [
+    {
+      "name": "api",
+      "urls": [
+        "https://fakestoreapi.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 100,
+        "maxAge": "1d",
+        "timeout": "5s",
+        "strategy": "freshness"
+      }
+    },
+    {
+      "name": "google-fonts-stylesheets",
+      "urls": [
+        "https://fonts.googleapis.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 10,
+        "maxAge": "7d",
+        "strategy": "freshness"
+      }
+    },
+    {
+      "name": "google-fonts-webfonts",
+      "urls": [
+        "https://fonts.gstatic.com/**"
+      ],
+      "cacheConfig": {
+        "maxSize": 30,
+        "maxAge": "30d",
+        "strategy": "freshness"
+      }
+    }
   ]
 }
